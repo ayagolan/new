@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Background Image Example</title>
+    <style>
+      /* Apply a background to the entire page */
+      body {
+        background-image: url(https://images.unsplash.com/photo-1521747116042-5a810fda9664?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); /* Reference to the image in the same directory */
+        background-size: cover; /* Ensures that the background covers the entire area */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* The image will not repeat */
+        height: 100vh; /* Ensures the body takes up the full viewport height */
+        margin: 0; /* Removes default margin around the body */
+      }
+
+      /* Additional styles for content */
+      .content {
+        color: white; /* Makes text visible on darker backgrounds */
+        text-align: center; /* Centers the text horizontally */
+        padding-top: 20%; /* Adds some spacing at the top */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Welcome to My Website</h1>
+      <p>This is an example of a full-page background image.</p>
+    </div>
+  </body>
+</html>
